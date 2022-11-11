@@ -4,21 +4,21 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+/* body styling done here  */
 body {
   height: 100vh;
-  display: flex;
+  display: flex; 
   justify-content: center;
   align-items: center;
   background: url(https://static.vecteezy.com/system/resources/previews/002/116/398/non_2x/modern-night-city-skyline-landscape-background-vector.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+/* clock digits colour */
 .digital-clock {
   color: white;
 }
-
+/* bottom heading for locatio */
 h1 {
   text-align: center;
   font-weight: 600;
@@ -36,6 +36,7 @@ img{
     height: 45px;
    background-color: white;
 }
+/* clock styling */
 .clock {
   display: flex;
   justify-content: center;
@@ -49,11 +50,11 @@ img{
 .am-pm {
   font-size: 3rem;
   font-weight: 700;
-  padding: 1rem;
+  padding: rem;
 }
 
 .am-pm {
-  padding: 0.4rem;
+  padding-top: 1.5rem;
   align-self: end;
   font-size: 2rem;
 }
