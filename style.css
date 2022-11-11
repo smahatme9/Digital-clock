@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://static.vecteezy.com/system/resources/previews/002/116/398/non_2x/modern-night-city-skyline-landscape-background-vector.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.digital-clock {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3.6rem;
+  letter-spacing: 3px;
+  padding: 0.5rem;
+  color: rgb(251, 252, 253);
+}
+a {
+  text-decoration: none;
+}
+
+img{
+    width: 50px; 
+    height: 45px;
+   background-color: white;
+}
+.clock {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.hours,
+.minutes,
+.seconds,
+.am-pm {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.am-pm {
+  padding: 0.4rem;
+  align-self: end;
+  font-size: 2rem;
+}
